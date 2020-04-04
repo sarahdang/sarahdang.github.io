@@ -1,39 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>projects</title>
-    <meta charset="utf-8">
-    <meta name="viewport" contents="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel='shortcut icon' type="image/png" href="images/S favicon.png">
-    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+	<title> </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="portfolio, riddle, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/S favicon.png" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair%20Display' rel='stylesheet'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
-
 <body>
-<!---header--->
-<div class="header">
-    <div class="S">
-        <a href="index.html"><img src="images/S.png" alt="Sarah Dang" height="62" width="31"></a>
-    </div>
-    <div class="etc">
-        <a href="about.html">about</a>
-        <a href="">resume</a>
-        </ul>
-    </div>
-</div>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	
+	<!-- header section start -->
+	<header class="header-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-3">
+					<div class="logo">
+						<a href="index.html"><img src="img/S.png" alt="Sarah Dang" height="62" width="31"></a>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-9">
+					<nav class="main-menu">
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="projs.html">PROJECTS</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+	</header>
+	<!-- header section end -->
 
-<!---footer--->
-<div class="footer">
-    <ul class="links">
-        <a href="https://www.linkedin.com/in/dangsarah/" target="_blank" title="Connect with me on Linkedin"><img src="images/linkedin.png" height="41" width="41"></a>
-        <a href="https://medium.com/@sarahdang" target="_blank" title="Follow me on Medium"><img src="images/medium.png" height="41" width="41"></a>
-        <a href="mailto:sarah.nldang@gmail.com" title="Email me!"><img src="images/mail.png" height="41" width="41"></a>
-    </ul>
+	<!-- page section start -->
+	<div class="page-section">
+		<div class="container">
+			<div class="row mb-5">
+				<!-- blog item -->
+				<div class="col-md-6">
+					<div class="blog-item">
+						<figure class="thumb">
+							<img src="img/blog/1.jpg" alt="">
+						</figure>
+						<article class="blog-content">
+							<h2>Shyft Remodel</h2>
+							<div class="blog-meta">August 2020</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat. Curabitur ac erat sollicitudin, blandit quam vitae.</p>
+							<a href="" class="read-more">View Project</a>
+						</article>
+					</div>
+				</div>
+				<!-- blog item -->
+				<div class="col-md-6">
+					<div class="blog-item">
+						<figure class="thumb">
+							<img src="img/blog/2.jpg" alt="">
+						</figure>
+						<article class="blog-content">
+							<h2>Lorem ipsum</h2>
+							<div class="blog-meta">January 29, 2018</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet pharetra nisl. Vestibulum sollicitudin leo non purus vestibulum placerat. Curabitur ac erat sollicitudin, blandit quam vitae.</p>
+							<a href="" class="read-more">View Project</a>
+						</article>
+					</div>
+				</div>
+		</div>
+	</div>
+	<!-- page section end -->
 
-    <div class="copyrights">
-        <h5>Sarah Dang © 2020</h5>
-    </div>
-</div>
+	<!-- footer section start -->
+	<footer class="footer-section text-center">
+		<div class="container">
+			<div class="social-links">
+                <a href="https://www.linkedin.com/in/dangsarah/" target="_blank" title="Connect with me on Linkedin!"><img src="img/linkedin.png" height="10"></a>
+				<a href="https://medium.com/@sarahdang" target="_blank" title="Follow my Medium!"><img src="img/medium.png" height="10"></a>
+				<a href="mailto:sarah.nldang@gmail.com" title="Email me!"><img src="img/email.png" height="10"></a>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
