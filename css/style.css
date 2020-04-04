@@ -568,7 +568,7 @@ a:visited {
     Footer Section
 --------------------------*/
 .footer-section {
-  margin-bottom:50px;
+  padding: 110px 0;
 }
 
 .footer-section .copyright {
@@ -589,26 +589,6 @@ a:visited {
 
 .social-links a:last-child {
   margin-right: 0;
-}
-
-.social-links a:link {
-  font-family: 'Cabin';
-    text-decoration: none;
-    color: #393939;
-}
-
-.social-links a:hover {
-  text-decoration: none;
-  color: transparent;
-}
-
-.social-links a:visited {
-  color: #393939;
-  text-decoration: none;
-}
-
-.social-links img:hover {
-  color: transparent;
 }
 
 /*------------------------
