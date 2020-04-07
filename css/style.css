@@ -28,9 +28,35 @@ h2 {
   letter-spacing: 3px;
 }
 
-h3,
-h4,
-h5,
+h3 {
+  color: #45458F;
+
+  font-family: 'Playfair Display';
+  font-size: 50px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+h4 {
+  color: #393939;
+
+  font-size: 10px;
+  line-height: 1.8;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 1px;
+}
+
+h5 {
+  color: #45458F;
+
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: 'Cabin', sans-serif; 
+  letter-spacing: 1px;
+}
+
 h6 {
   color: #393939;
   margin: 0;
@@ -73,12 +99,14 @@ ol {
 /* unvisited links*/
 a:link {
   font-family: 'Cabin';
+  letter-spacing: 1px;
   text-decoration: none;
   color: #393939;
 }
 
 a:hover {
   font-family: 'Cabin';
+  letter-spacing: 1px;
   text-decoration: none;
   color: transparent;
 }
@@ -86,6 +114,7 @@ a:hover {
 /* visited links*/
 a:visited {
   font-family: 'Cabin';
+  letter-spacing: 1px;
   color: #393939;
   text-decoration: none;
 }
@@ -565,6 +594,20 @@ a:visited {
 }
 
 /*------------------------
+    Project Section
+--------------------------*/
+
+/* 
+.shyft-remodel {
+  width: 600px;
+  
+  padding-right: 40px;
+  padding-left: 40px;
+} */
+
+
+
+/*------------------------
     Footer Section
 --------------------------*/
 .footer-section {
@@ -635,9 +678,7 @@ a:visited {
     Blog Page
 --------------------------*/
 .blog-item {
-  margin-bottom: 70px;
-  padding-right: 40px;
-  padding-left: 40px;
+  margin-top: 40px;
 }
 
 .blog-item .read-more {
@@ -676,6 +717,27 @@ a:visited {
 
 .blog-content p {
   margin-bottom: 30px;
+}
+
+/* .projects {
+  position: relative;
+  overflow: hidden;
+}
+
+.project {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+.link {
+  font-size: 12px;
+
+  border: 1px solid #393939;
+  width: 112px;
+  height: auto;
+  padding: 10px;
+  
 }
 
 /*------------------------
