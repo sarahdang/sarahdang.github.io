@@ -119,6 +119,10 @@ a:visited {
   text-decoration: none;
 }
 
+.indent {
+  margin-left: 40px;
+}
+
 /*------------------------
   Helper css
 --------------------------*/
