@@ -20,8 +20,6 @@
 		$(this).css('background-image', 'url(' + bg + ')');
 	});
 
-
-
 	/*----------------------
 		Portfolio layout
 	------------------------*/
@@ -38,18 +36,4 @@
 		var pi_width = $(this).width();
 		$(this).height(pi_width + 50);
 	});
-
-
-	/*------------------
-		Accordions
-	--------------------*/
-	$('.panel-link').on('click', function (e) {
-		$('.panel-link').parent('.panel-header').removeClass('active');
-		var $this = $(this).parent('.panel-header');
-		if (!$this.hasClass('active')) {
-			$this.addClass('active');
-		}
-		e.preventDefault();
-	});
-
 })(jQuery);
