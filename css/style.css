@@ -495,4 +495,8 @@ a:visited {
   .section-title {
     font-size: 30px;
   }
+  
+  .portfolio-item {
+    height: 270px;
+  }
 }
