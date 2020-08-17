@@ -485,10 +485,13 @@ a:visited {
     display: none;
   }
   .portfolio-item {
-    height: 370px;
+    height: 250px;
   }
   .section-title {
     font-size: 45px;
+  }
+  .portfolio-filter {
+    text-align: center;
   }
 }
 
