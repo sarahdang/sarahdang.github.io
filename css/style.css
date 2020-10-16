@@ -29,10 +29,10 @@ h2 {
 
 /* Project Titles on Index */
 h3 {
-  color: #000;
+  color: #393939;
 
-  font-family: 'Cabin', sans-serif; 
-  text-transform: uppercase;
+  /* font-family: 'Cabin', sans-serif;  */
+  /* text-transform: uppercase; */
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 1px;
@@ -275,8 +275,8 @@ a:visited {
 }
 
 .portfolio-item .pi-inner h3 {
-  color: #4682B4;
-  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  color: #393939;
 
   opacity: 0;
 }
